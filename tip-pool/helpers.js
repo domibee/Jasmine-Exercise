@@ -31,9 +31,7 @@ function appendDeleteBtn(tr) {
   let deleteBtn = document.createElement('td');
   deleteBtn.className = 'deleteBtn';
   deleteBtn.innerText = 'X';
-
   deleteBtn.addEventListener('click',removeEle);
-
   tr.append(deleteBtn);
   
 }
