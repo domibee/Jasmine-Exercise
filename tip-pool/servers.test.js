@@ -17,7 +17,7 @@ describe("Servers test (with setup and tear-down)", function() {
     updateServerTable();
 
     let updateTable = document.querySelectorAll('#serverTable tbody tr td');
-    expect(updateTable.length).toEqual(2);
+    expect(updateTable.length).toEqual(3);
     expect(updateTable[0].innerText).toEqual('Alice');
     expect(updateTable[1].innerText).toEqual('$0.00');
 
