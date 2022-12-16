@@ -33,5 +33,4 @@ function appendDeleteBtn(tr) {
   deleteBtn.innerText = 'X';
   deleteBtn.addEventListener('click',removeEle);
   tr.append(deleteBtn);
-  
 }
